@@ -1,0 +1,153 @@
+@media (max-width: 1198px) {
+    .section-how-to-help {
+        .tab-content {
+            .image-benefit {
+                height: 300px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .section-how-to-help {
+        .tab-content {
+            .image-benefit {
+                height: 224px;
+            }
+        }
+    }
+    .header-bg-image {
+        height: 400px;
+    }
+    .section-user {
+        .wrap-user-logo {
+            margin-top: 30px;
+        }
+        .btn-prev,
+        .btn-next {
+            display: none !important;
+        }
+    }
+    .section-package {
+        .btn-contact {
+            margin-top: 10px;
+            float: none;
+        }
+    }
+    .section-class {
+        .btn-prev-class,
+        .btn-next-class {
+            display: none !important;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header-bg-image {
+        height: 300px;
+    }
+    .section-package {
+        .contact-us {
+            .benefit-contact {
+                display: block;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .navbar-brand {
+        img {
+            width: 40px;
+        }
+    }
+    .header-bg-image {
+        height: 250px;
+        .content-header {
+            h1 {
+                font-size: 22px;
+            }
+        }
+    }
+    .section-user {
+        padding: 30px 0px;
+        h2 {
+            font-size: 20px;
+        }
+        .wrap-user-logo {
+            margin-top: 30px;
+            .image-user {
+                width: 80px;
+                margin: 0px 6px;
+                img {
+                    width: 80px;
+                }
+            }
+        }
+    }
+    .section-how-to-help {
+        padding: 30px 0px;
+        .title {
+            h2 {
+                font-size: 20px;
+            }
+        }
+        .tabs-benefit-class {
+            margin-top: 20px;
+        }
+        .tab-content {
+            margin-top: 30px;
+            h3 {
+                font-size: 20px;
+            }
+            .sub-benefit {
+                font-size: 18px;
+                .cek-sub {
+                    font-size: 20px;
+                }
+            }
+            .video-benefit {
+                height: 260px;
+            }
+        }
+    }
+    .section-package {
+        padding: 30px 0px;
+        .title {
+            h2 {
+                font-size: 20px;
+            }
+        }
+        .contact-us {
+            padding: 16px;
+        }
+    }
+    .section-class {
+        padding: 30px 0px;
+        .title {
+            h2 {
+                font-size: 20px;
+            }
+        }
+        .card-class-video {
+            width: 220px;
+            height: 230px;
+            .title-card {
+                h1 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .section-down {
+        padding: 30px 0px;
+        .title {
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+    footer {
+        padding: 30px 0px;
+    }
+}
